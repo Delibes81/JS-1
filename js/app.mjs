@@ -1,3 +1,6 @@
+import Egreso from `./Egreso.mjs`
+import Ingreso from `./Ingreso.mjs`
+
 let egresos = {
     Renta: 900,
     Ropa:400
@@ -35,3 +38,4 @@ const formatoMoneda = (valor) => `$${valor.toLocaleString()}`
 const formatoPorcentaje = (valor) => `${valor.toLocaleString()}%`
 
 cargarCabecero()
+
